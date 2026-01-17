@@ -31,3 +31,6 @@ dist-ssr
 .cursor
 node_modules
 dist
+.vscode
+.DS_Store
+*.code-workspace
