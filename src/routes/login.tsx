@@ -122,7 +122,7 @@ function LoginComponent() {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <Label htmlFor="password">Senha</Label>
-                <Link to="/register" className="text-xs text-primary hover:underline">Esqueceu a senha?</Link>
+                <Link to="/forgot-password" title="Esqueceu a senha?" className="text-xs text-primary hover:underline">Esqueceu a senha?</Link>
               </div>
               <Input
                 id="password"

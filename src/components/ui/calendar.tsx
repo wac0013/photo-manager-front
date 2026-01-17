@@ -47,14 +47,13 @@ function Calendar({
         hidden: "invisible",
         dropdowns: "flex gap-1 items-center justify-center relative z-20",
         dropdown: "rdp-dropdown",
-        dropdown_container: "relative flex items-center",
         ...classNames,
       }}
       components={{
         Chevron: ({ orientation }) => {
           if (orientation === 'left') return <ChevronLeft className="h-4 w-4" />
           if (orientation === 'right') return <ChevronRight className="h-4 w-4" />
-          return null
+          return <></>
         }
       }}
       {...props}

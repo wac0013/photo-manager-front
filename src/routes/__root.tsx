@@ -8,7 +8,7 @@ import { toast } from 'sonner'
 import { cn } from '@/lib/utils'
 import { authClient } from '@/lib/auth-client'
 
-const PUBLIC_ROUTES = ['/login', '/register']
+const PUBLIC_ROUTES = ['/login', '/register', '/forgot-password', '/reset-password']
 
 export const rootRoute = createRootRoute({
   beforeLoad: async ({ location }) => {
